@@ -1,0 +1,141 @@
+.custom-navbar{
+    background-color: rgb(251, 251, 251) !important;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.main-title{
+    padding: 10%;
+    font-size: 65px;
+    font-family: serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.tagline{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.main-img{
+    margin-top: 5%;
+    border:1px solid white;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-top: -6%;
+}
+.logo-title{
+    font-size: 40px;
+}
+.nav-txt{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cake-title{
+    margin: 2% 5%;
+    font-size: 45px;
+    font-family: serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.cakes-category a{
+    display: inline;
+    margin: 1%;
+    font-size: 20px;
+    color: black;
+    margin-left: 2%;
+
+}
+.row{
+    justify-content: center;
+}
+.card{
+  margin: 2%;
+}
+/* about us */
+.about{
+  margin: 2% 5% 0 3%;
+}
+.about-us{
+    display: flex;
+}
+.about-img{
+    padding: 5%;
+    width: 30%;
+}
+.about-txt{
+    text-align: center;
+    padding: 10%;
+}
+/* design for footer */
+.footer{
+    background-color: rgb(10, 10, 10);
+    padding: 2%;
+    width: 100%;
+}
+.fab,.fas,.copyright,.list-inline-item{
+    color: white;
+    font-size: 20px;
+}
+/* design register form */
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: rgb(245, 242, 242);
+    width: 80%;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+

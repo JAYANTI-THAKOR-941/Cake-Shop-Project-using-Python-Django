@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% load cart %}
+{% load custom_filter %}
+
+<form action="/login" method="post">
+    <div class="container">
+        <h1>Login</h1>
+        <hr>
+         
+        {% csrf_token %}
+
+        {% if error%}
+        <div class="alert alert-danger" role="alert">
+            {{error}}
+        </div>
+        {% endif %}
+                <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" name="email"  value="{{values.email}}" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="psw"  type="password" name="password"  required>
+
+        <hr>
+        
+        <button type="submit" class="registerbtn">Login</button>
+    </div>
+
+    <div class="container signin">
+        <p>Create an Account <a href="/signup">Sign up</a>.</p>
+    </div>
+</form>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+{% load cart %}
+{% load custom_filter %}
+<h1 class="about">About US</h1>
+<div class="about-us">
+	<div class="about-img">
+		<img src="{% static '/chocolate-walnut-truffle-half-kg_1.webp' %} " class="main-img" width="380px" height="380px">
+	</div>
+	<div class="about-txt">
+		<h1>The Cake Shop </h1>
+		<p>The Cake Shop is a Cake Studio specializing in Wedding cakes, Custom Cakes, and Dessert Bars. We also offer a variety of bite sized treats. Everything is made from scratch in house and with locally sourced ingredients when possible.</p>
+		<p>The Cake Shop is not a retail bakery. We are by appointment only. This way we can give each of our clients and their order the care and attention they deserve. We love working with our clients to make their dessert dreams come true!</p>
+	</div>
+	
+</div>
+{% endblock %}
