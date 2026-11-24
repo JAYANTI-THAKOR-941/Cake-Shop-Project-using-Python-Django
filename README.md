@@ -86,3 +86,22 @@ The Cake Shop is an online bakery platform built with Python and Django, designe
    ```bash
    git clone https://github.com/YOUR_USERNAME/The-Cake-Shop.git
 >>>>>>> 89bd301a5bb34ca9c1188df9a9e9de1339e59cbb
+
+---
+
+## Cake Shop — Django E-commerce
+
+Django shop with product categories, customer accounts, cart, checkout and order views.
+
+## Project structure
+
+`Eshop/`, `store/models/`, `store/views/`, `store/templates/`, `store/migrations/`, `requirements.txt`, `manage.py`
+
+## Getting started
+
+```bash
+git clone https://github.com/JAYANTI-THAKOR-941/Cake-Shop-Project-using-Python-Django.git
+cd Cake-Shop-Project-using-Python-Django
+```
+
+Create and activate a Python virtual environment. Run `pip install -r requirements.txt`, review local settings, then `python manage.py migrate` and `python manage.py runserver`. Review dependency compatibility before deployment.
